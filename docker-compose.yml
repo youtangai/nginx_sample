@@ -1,0 +1,8 @@
+version: '2'
+services:
+  nginx: 
+    image: nginx
+    ports: 
+      - 8080:80
+    volumes: 
+      - ./views:/usr/share/nginx/html
